@@ -77,7 +77,7 @@ letters = {"가렴주구": "세금을 가혹하게 거두어들이고, 무리하
            "식자우환": "학식이 있는 것이 오히려 근심을 사게 됨.",
            "아전인수": "자기 논에 물 대기라는 뜻으로, 자기에게만 이롭게 되도록 생각하거나 행동함을 이르는 말.",
            "안분지족": "제 분수를 지키며 반족할 줄을 앎.",
-           "안빅낙도": "가난한 생활을 하면서도 도를 즐겨 지킴"}
+           "안빈낙도": "가난한 생활을 하면서도 도를 즐겨 지킴"}
 
 
 def main():
@@ -104,6 +104,7 @@ def main():
                 num_of_answers = num_of_answers + 1
                 break
             elif value == str(0):
+                ㅇ
                 solved = solved + list(letters.keys())[rand_num] + " X\n"
                 print("문제를 넘기셨습니다. 정답은 "+list(letters.keys())
                       [rand_num]+"였습니다.\n\n\n")
