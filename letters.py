@@ -106,7 +106,6 @@ def main():
                 num_of_answers = num_of_answers + 1
                 break
             elif value == str(0):
-                ㅇ
                 solved = solved + list(letters.keys())[rand_num] + " X\n"
                 print("문제를 넘기셨습니다. 정답은 "+list(letters.keys())
                       [rand_num]+"였습니다.\n\n\n")
